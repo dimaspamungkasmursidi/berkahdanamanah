@@ -1,0 +1,417 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+}
+
+.header {
+  background: #4a73ee;
+  color: #fff;
+  padding: 2em 0;
+}
+
+.header h3 {
+  color: #dd2a19;
+  font-weight: bold;
+  margin: 0;
+  font-size: 2em;
+}
+
+.header p {
+  margin: 0.5em 0 0;
+  font-size: 1.2em;
+}
+
+main {
+  padding: 1em;
+}
+
+.problem,
+.solution,
+.usage {
+  margin-bottom: 2em;
+}
+
+.problem h2,
+.solution h2,
+.usage h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.problem p,
+.solution p,
+.usage p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.problem img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.solution ul {
+  list-style: none;
+  padding: 0;
+}
+
+.solution li {
+  background: #ff6f61;
+  color: #fff;
+  margin: 0.5em 0;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 1em;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.usage {
+  border-radius: 5px;
+  margin-top: 4em;
+}
+
+.usage h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.usage-instructions {
+  display: flex;
+  flex-direction: column;
+}
+
+.instruction-step {
+  border-bottom: #b0b0b0 solid 1px;
+  padding-top: 6px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.icon {
+  font-size: 2em;
+  color: #4caf50; /* Hijau untuk centang */
+  margin-right: 0.3em;
+}
+
+.text {
+  flex: 1;
+}
+
+.text p {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.testimoni {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.testimoni h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.testimoni-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.testimoni-item {
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.testimoni-item img {
+  width: 100%;
+  height: auto;
+  border: #333 solid 1px;
+  border-radius: 10px;
+  margin-bottom: 0.5em;
+}
+
+.product {
+  text-align: center;
+}
+
+.product h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.promo {
+  margin-top: 2em;
+}
+
+.promo h3,
+.promo h4 {
+  font-size: 1.5em;
+  color: #ff6f61;
+}
+
+.promo-text {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.limited-stock {
+  color: red;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.promo-package {
+  font-size: 1.2em;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.promo-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+.promo-package h5 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.discount {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.cta {
+  background: #ff6f61;
+  color: #fff;
+  padding: 2em;
+  border-radius: 5px;
+}
+
+.cta h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+
+.order {
+  border: #000000 solid 1px;
+  background-color: #10b61b;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 30px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.order h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group-label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+}
+
+.form-group-input{
+  background-color: #025107;
+}
+.form-group textarea {
+  background-color: #025107;
+}
+
+::placeholder {
+  color: #fafafa;
+}
+
+.form-group-input, 
+.form-group textarea, 
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus, 
+.form-group select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.checkbox-item input {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.label-checkbox {
+  color: #fff;
+}
+
+.label-harga {
+  color: #fff;
+  text-align: end;
+}
+
+.form-group input:not(:placeholder-shown), 
+.form-group textarea:not(:placeholder-shown) {
+    color: #fff;
+}
+
+.orderButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  width: 100%;
+  text-align: center;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.orderButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.orderButton:active {
+  background-color: #004494;
+  transform: scale(1);
+}
+
+.botom {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin-top: 2em;
+}
+
+.botom img {
+  width: 32%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.botom img:hover {
+  transform: scale(1.05);
+}
+
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateY(5px);
+  }
+}
